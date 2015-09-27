@@ -37,8 +37,8 @@ int main(int argc, char* argv[])
 
   /* char prev_contig[100], contig[100]; */
 
-  char* prev_contig = calloc(100, sizeof(char));
-  char* contig      = calloc(100, sizeof(char));
+  char* prev_contig = calloc(1000, sizeof(char));
+  char* contig      = calloc(1000, sizeof(char));
 
   int* coverages    = calloc(size, sizeof(int));
 
