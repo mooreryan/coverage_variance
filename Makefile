@@ -1,1 +1,1 @@
-CFLAGS=-Wall -g -std=c11
+CFLAGS=-Wall -g -std=c11 -lm
