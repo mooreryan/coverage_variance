@@ -7,6 +7,14 @@ Fast C program to get coverage variance from a BED file.
 BED file
 
     Sequence\tPosition\tCoverage
+    
+**Note**: You can make this type of BED file like so
+
+    genomeCoverageBed -d -split -ibam recruitment.sorted.bam -g contigs.lengths.txt > coverage.txt
+    
+Where `contig.lengths.txt` has these columns
+
+    contig_name\tlength
 
 ## Make & run it##
 
