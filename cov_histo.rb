@@ -20,5 +20,5 @@ puts "cov.ceil\tcount\tpdf\tcdf"
 counts.sort.each do |cov, count|
   pdf = count / total
   cdf += pdf
-  printf "%s\t%s\t%.2f\t%.2f\n", cov, count, pdf, cdf
+  printf "%s\t%s\t%.5f\t%.5f\n", cov, count, pdf, cdf
 end
