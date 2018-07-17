@@ -12,7 +12,7 @@ BED file
 
 If you have a newer version of SamTools, this way is simpler and faster.
 
-    samtools depth -a recruitment.sorted.bam > coverage.txt
+    samtools depth -aa recruitment.sorted.bam > coverage.txt
 
 ### Make the input file with BedTools
 
