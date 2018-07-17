@@ -38,7 +38,7 @@ Where `contig.lengths.txt` has these columns
 
 All programs can read from stdin so you can pipe things like so....
 
-    samtools depth -a recruitment.sorted.bam | coverage_variance | ruby cov_histo.rb > output
+    samtools depth -aa recruitment.sorted.bam | coverage_variance | ruby cov_histo.rb > output
 
 if you want.
 
